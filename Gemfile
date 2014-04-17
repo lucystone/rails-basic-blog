@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+
 
 # App framework and database
 gem 'rails', '4.0.0'
@@ -20,7 +20,7 @@ gem 'jquery-turbolinks'
 gem 'turbolinks'
 
 # Admin interface
-gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'activeadmin', :git => 'https://github.com/gregbell/active_admin.git'
 
 group :development do
 	gem 'annotate'

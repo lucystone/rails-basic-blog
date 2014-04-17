@@ -13,3 +13,59 @@
  *= require posts
  *= require authors
  */
+
+
+.logo{
+ margin:20px auto; 
+}
+
+.logo{
+text-align:center;
+}
+
+
+.title{
+text-align:center;
+margin-top:8px;
+font-family: 'Sacramento', cursive;
+font-size:30px;
+padding-bottom:20px;
+}
+
+
+
+
+
+
+nav {
+    text-align: center;
+    margin: 0 auto;
+    color:black;
+  
+
+}
+
+nav ul{
+    padding-left:0;
+    margin-left:0;
+
+
+}
+
+nav ul li {
+    display:inline;
+
+
+}
+
+nav ul a {
+padding:0.2em 1em;
+   color:black;
+    text-decoration:none;
+}
+
+
+nav ul a:hover {
+text-decoration:underline;
+color:#ce3d45;
+}

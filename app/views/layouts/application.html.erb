@@ -9,11 +9,78 @@
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+
+
   </head>
 
   <body>
+ 
+
+<div class="logo">
+  <%= image_tag "logo.png", :alt => "logo" %>
+</div>
+
+<h1 class="title">Welcome to Lucy's Blog</h1>
+
+
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+  
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+
+      <!-- Right Nav Section -->
+    <ul class="right">
+   <li class="has-form">
+  <div class="row collapse">
+    <div class="large-8 small-9 columns">
+      <input type="text" placeholder="Find Stuff">
+    </div>
+    <div class="large-4 small-3 columns">
+      <a href="#" class="alert button expand">Search</a>
+    </div>
+  </div>
+</li>
+    </ul>
+  
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+        <li><a href="#">Page 2</a></li>
+
+    </ul>
+
+</section>
+</nav>
+
+
+
+
+
+
 
     <%= yield %>
+      <nav class="footer">
+                <ul id="navlist-footer">
+                    <li id="active"><a href="#" id="current">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Page 2</a></li>
+                </ul>
+            </nav>
+        </div>
+      
+   
+
     <%= javascript_include_tag "application" %>
+
   </body>
 </html>
